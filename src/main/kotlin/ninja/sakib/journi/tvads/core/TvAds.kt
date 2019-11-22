@@ -6,6 +6,7 @@ import ninja.sakib.journi.tvads.models.TvSpot
 import ninja.sakib.journi.tvads.models.User
 import ninja.sakib.journi.tvads.utils.parseDateTime
 import ninja.sakib.journi.tvads.utils.parseJson
+import java.lang.Exception
 
 fun start(jsonFilePath: String) {
     try {
@@ -22,6 +23,8 @@ fun start(jsonFilePath: String) {
         }
     } catch (e: NotAValidJSON) {
         println("Content isn't a valid json : ${e.message}")
+    } catch (e: Exception) {
+        println("A exception occurred : ${e.message}")
     }
 }
 
