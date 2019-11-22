@@ -27,7 +27,7 @@ where,
 ```
 
 ```
-The improved solution runs on: O(nlog(n))
+The improved solution runs on: O(nlog(m))
 where,
 - n is the number of users
 - m is the number of tvSpots
