@@ -20,8 +20,16 @@ java -jar ./build/libs/journi-tvads-1.0.jar {path_json_file}
 
 ### Performance
 ```bash
-Then basic solution runs on: O(n*m)
+The basic solution runs on: O(n*m)
 where,
 - n is the number of users
 - m is the number of tvSpots
+```
+
+```
+The improved solution runs on: O(nlog(n))
+where,
+- n is the number of users
+- m is the number of tvSpots
+improved it using binary search technic to find tvSpot
 ```
