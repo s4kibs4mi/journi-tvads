@@ -33,3 +33,5 @@ where,
 - m is the number of tvSpots
 improved it using binary search technic to find tvSpot
 ```
+
+* Note : I have assumed the tvSpot times are in increasing order which is sorted.
