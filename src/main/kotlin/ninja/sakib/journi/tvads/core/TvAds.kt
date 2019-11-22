@@ -17,7 +17,7 @@ fun start(jsonFilePath: String) {
         println("Found tvSpots : ${tvSpots.size}")
         println("Found users : ${users.size}")
 
-        val stats = findNewUsersStat(tvSpots, users)
+        val stats = findNewUsersStatImproved(tvSpots, users)
         for ((k, v) in stats) {
             println("Spot $k: $v new users")
         }
